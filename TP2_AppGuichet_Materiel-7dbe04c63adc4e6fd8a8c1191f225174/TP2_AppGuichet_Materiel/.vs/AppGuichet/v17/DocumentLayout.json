@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\modelstests\\transactiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\transactiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\modelstests\\serviceguichettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\serviceguichettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0129EC8E-FF56-448D-AE11-DEC1BA7B49DC}|AppGuichet\\AppGuichet.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\appguichet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:50:14.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Enums.cs",
               "RelativeDocumentMoniker": "Models\\Enums.cs",
@@ -98,7 +115,8 @@
               "RelativeToolTip": "Models\\Enums.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T19:14:55.797Z"
+              "WhenOpened": "2026-03-25T19:14:55.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,14 +126,14 @@
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
               "ToolTip": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Transaction.cs",
               "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwC0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T18:54:57.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FrmListeTransactions.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmListeTransactions.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmListeTransactions.cs",
@@ -128,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FrmPrincipal.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmPrincipal.cs",
@@ -139,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\Program.cs",
               "RelativeDocumentMoniker": "AppGuichet\\Program.cs",
@@ -151,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FrmListeClients.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmListeClients.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmListeClients.cs",
@@ -164,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "Models\\ClassDiagram1.cd",
@@ -175,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TransactionTests.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\TransactionTests.cs",
               "RelativeDocumentMoniker": "ModelsTests\\TransactionTests.cs",
@@ -187,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ServiceGuichetTests.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ServiceGuichetTests.cs",
               "RelativeDocumentMoniker": "ModelsTests\\ServiceGuichetTests.cs",
@@ -199,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FrmListeClients.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmListeClients.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmListeClients.cs",
@@ -210,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FrmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmPrincipal.cs",
@@ -222,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FrmListeTransactions.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmListeTransactions.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmListeTransactions.cs",
@@ -233,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ScoreTransaction.txt",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ScoreTransaction.txt",
               "RelativeDocumentMoniker": "ModelsTests\\ScoreTransaction.txt",
@@ -245,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ClientTests.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ClientTests.cs",
               "RelativeDocumentMoniker": "ModelsTests\\ClientTests.cs",
@@ -257,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ScoreClient.txt",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ScoreClient.txt",
               "RelativeDocumentMoniker": "ModelsTests\\ScoreClient.txt",
@@ -269,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ScoreServiceGuichet.txt",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ScoreServiceGuichet.txt",
               "RelativeDocumentMoniker": "ModelsTests\\ScoreServiceGuichet.txt",
@@ -281,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Transactions.csv",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\Fichiers\\Transactions.csv",
               "RelativeDocumentMoniker": "AppGuichet\\Fichiers\\Transactions.csv",
@@ -293,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Clients.csv",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\Fichiers\\Clients.csv",
               "RelativeDocumentMoniker": "AppGuichet\\Fichiers\\Clients.csv",
@@ -305,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FrmListeClients.Designer.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\AppGuichet\\FrmListeClients.Designer.cs",
               "RelativeDocumentMoniker": "AppGuichet\\FrmListeClients.Designer.cs",

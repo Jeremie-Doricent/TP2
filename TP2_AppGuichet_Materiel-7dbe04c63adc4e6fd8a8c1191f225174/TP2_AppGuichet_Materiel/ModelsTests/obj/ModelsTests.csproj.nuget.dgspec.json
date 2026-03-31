@@ -127,17 +127,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
-      },
-      "runtimes": {
-        "win-arm64": {
-          "#import": []
-        },
-        "win-x64": {
-          "#import": []
-        },
-        "win-x86": {
-          "#import": []
-        }
       }
     },
     "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Models.csproj": {

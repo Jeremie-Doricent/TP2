@@ -57,7 +57,7 @@ namespace Models
         public string ToCsv()
 
         {
-            int sortetransaction = m_sorteTransaction == SorteTransactions.Dépôt ? 0 : 1;
+            
             string texte = m_date.ToString("yyyy-MM-dd HH:mm:ss");
             return $"{sortetransaction},{NumClient},{Date},{Montant}";
 
