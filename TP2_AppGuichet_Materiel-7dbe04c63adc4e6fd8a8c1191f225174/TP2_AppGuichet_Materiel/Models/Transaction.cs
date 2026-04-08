@@ -59,7 +59,7 @@ namespace Models
         {
             
             string texte = m_date.ToString("yyyy-MM-dd HH:mm:ss");
-            return $"{sortetransaction},{NumClient},{Date},{Montant}";
+            return $"{SorteTransaction},{NumClient},{Date},{Montant}";
 
         }
         public  Transaction()

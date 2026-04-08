@@ -23,9 +23,9 @@ namespace Models
                 return false;
             }
         }
-        public string MotDePasse { get { return m_motDePasse; } }
-        public string Nom { get { return m_nom; } }
-        public string NumClient { get { return m_numClient; } 
+        public string MotDePasse { get { return m_motDePasse; } private set { m_motDePasse = value; } }
+        public string Nom { get { return m_nom; }private set { m_nom = value; } }
+        public string NumClient { get { return m_numClient;  } 
             private set {
                 if (value == null) { throw new ArgumentNullException(); }
 
@@ -38,7 +38,7 @@ namespace Models
                 NumClient = value;
             } 
         }
-        public Roles Role { get { return m_role; } }
+        public Roles Role { get { return m_role; } set { } }
         public int Solde { get { return m_solde; }
             private set
             {
@@ -51,35 +51,61 @@ namespace Models
             }
             
         }
-        public SorteComptes SorteComptes { get { return m_sorteComptes; } }
+        public SorteComptes SorteComptes { get { return m_sorteComptes; } private set { } }
         public List<Transaction> Transaction { get  }
-        
+
 
 
         public void AjouterTransaction(Transaction pTransaction)
         {
+            if(pTransaction == null)
+            {
+                throw new ArgumentNullException();
+            }
+            if(pTransaction.NumClient != NumClient)
+            {
+                throw new InvalidOperationException();
+            }
+            if (Transaction.Contains(pTransaction)) {
 
+                throw new InvalidOperationException();
+            }
         }
-        public  Client(string pChaineLue)
+        public Client(string pChaineLue)
         {
-            int sortetransaction = m_sorteTransaction == SorteTransactions.Dépôt ? 0 : 1;
-            pChaineLue = $"{NumClient},{Nom},{MotDePasse},{Role},"
+            string[] parties = pChaineLue.Split(',');
 
+            NumClient = parties[0];
+            Nom = parties[1];
+            MotDePasse = parties[2];
+            Role = (Roles)int.Parse(parties[3]);
+            SorteComptes = (SorteComptes)int.Parse(parties[4]);
+            Solde = int.Parse(parties[5]);
         }
-        public  Client(string pNumClient, string pNom, string pMotDePasse, Roles PRole,SorteComptes pSorte , int pSolde)
+        public  Client(string pNumClient, string pNom, string pMotDePasse, Roles Prole,SorteComptes pSorte , int pSolde)
         {
-
+            
         }
         public void Deposer(int Montant)
-        {
-
+        {  Solde += Montant;
+            if(Montant < 0) { throw new ArgumentOutOfRangeException(); }
+            if (Montant > MAX_SOLDE) { throw new InvalidOperationException(); }
+          
         }
         public bool PeutRetirer(int montant)
         {
-
+            Solde -= montant;
+            if(montant < Solde) {  return true; }
+            return false;
         }
-        public string toCsv() {
-        
+        public string toCsv()
+        {
+            int roleInt = (int)Role;
+            int sortecompte = (int)SorteComptes;
+            Role = (Roles)int.Parse();
+            return $"{NumClient}, {Nom} , {MotDePasse},{roleInt},{sortecompte},{Solde}";
+                    
+                    
         }
     }
 }
