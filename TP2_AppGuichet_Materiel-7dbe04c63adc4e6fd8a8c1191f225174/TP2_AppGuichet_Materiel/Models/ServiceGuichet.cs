@@ -9,44 +9,46 @@ namespace Models
     public class ServiceGuichet
     {
 
-        private Client clientCourant;
+    //    private Client clientCourant;
 
-        private string m_cheminFichierClients;
-        private string m_cheminFichierTransaction;
-        private List<Client> m_clients;
-        private List<Transaction> m_transactions;
+    //    private string m_cheminFichierClients;
+    //    private string m_cheminFichierTransaction;
+    //    private List<Client> m_clients;
+    //    private List<Transaction> m_transactions;
 
-        public string CheminFichierClients { get { return m_cheminFichierClients; } set { } }
-        public string CheminFichierTransaction { get { return m_cheminFichierTransaction; } set { } }
-        public List<Client> Clients { get { return m_clients; } }
-        public List <Transaction> Transactions { get { return m_transactions; } }
+    //    public string CheminFichierClients { get { return m_cheminFichierClients; } set { } }
+    //    public string CheminFichierTransaction { get { return m_cheminFichierTransaction; } set { } }
+    //    public List<Client> Clients { get { return m_clients; } }
+    //    public List<Transaction> Transactions { get { return m_transactions; } set { m_transactions = value; } }
 
-        public int ChargerClient()
-        {
+    //    public int ChargerClient()
+    //    {
 
-        }
-        public int ChargerTransaction()
-        {
+    //    }
+    //    public int ChargerTransaction()
+    //    {
 
-        }
-        public bool Connexion(string numclient, string motDePasse)
-        {
+    //    }
+    //    public bool Connexion(string numclient, string motDePasse)
+    //    {
 
-        }
-        public bool CreeTransaction()
-        {
+    //    }
+    //    public bool CreeTransaction()
+    //    {
 
-        }
-        public bool Deconnexion() { }
-        public bool Sauvegarde() { }
-        public void SauvegardeClients(string pFichier) { }
-        public void SauvegardeTransaction(string pFichier) { }
+    //    }
+    //    public bool Deconnexion() { }
+    //    public bool Sauvegarde() { }
+    //    public void SauvegardeClients(string pFichier) { }
+    //    public void SauvegardeTransaction(string pFichier) { }
 
-        ServiceGuichet(string pCheminFichier ) {
-        }
-        public  Client TrouverClient()
-        {
+    //    ServiceGuichet(string pCheminFichier)
+    //    {
+    //    }
+    //    public Client TrouverClient()
+    //    {
 
-        }
+    //    }
     }
+
 }

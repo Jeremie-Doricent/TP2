@@ -8,6 +8,6 @@ namespace Models
 {
     public enum SorteTransactions { Dépôt, Retrait }
     public enum Roles {Administrateur, Client }
-    public enum SorteComptes {aucun,Epargne,chèque,Interet }
+    public enum SorteComptes {aucun,Épargne,chèque,Interet }
     public enum filtreOperation { Toutes ,Dépot, Retrait}
 }

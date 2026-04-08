@@ -1,5 +1,5 @@
 ﻿// Décommenter les lignes suivantes pour activer les tests
-#define TestClasseTransaction
+//#define TestClasseTransaction
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models;

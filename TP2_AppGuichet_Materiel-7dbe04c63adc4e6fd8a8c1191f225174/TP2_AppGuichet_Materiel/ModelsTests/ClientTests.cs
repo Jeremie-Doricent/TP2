@@ -1,4 +1,4 @@
-﻿//#define TestClasseClient
+﻿#define TestClasseClient
 using Models;
 
 namespace Models.Tests

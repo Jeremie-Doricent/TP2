@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Models
 {
@@ -14,7 +15,8 @@ namespace Models
         private Roles m_role;
         private int m_solde;
         private SorteComptes m_sorteComptes;
-        const int MAX_SOLDE = 1000000;
+       
+        public const int MAX_SOLDE = 1000000;
 
         public bool IsAdmin { get { if (m_role == Roles.Administrateur) 
                 { 
@@ -24,23 +26,57 @@ namespace Models
             }
         }
         public string MotDePasse { get { return m_motDePasse; } private set { m_motDePasse = value; } }
-        public string Nom { get { return m_nom; }private set { m_nom = value; } }
-        public string NumClient { get { return m_numClient;  } 
-            private set {
-                if (value == null) { throw new ArgumentNullException(); }
+        public string Nom { get { return m_nom; }
+            
+            private set { 
+               if(value == null)
+                {
+                    throw new ArgumentNullException();
+                }
+                if(value.Length < 3)
+                {
+                    throw new ArgumentOutOfRangeException();
+                }
+                
+                m_nom = value; } }
+        public string NumClient 
+        { 
+            get
+            { 
+                return m_numClient;
+            } 
+             set 
+            {
+                if (value == null)
+                { 
+                    throw new ArgumentNullException();
+                }
 
                 if (value.Trim().Length != 6)
                 {
                     throw new ArgumentException();
                 }
 
+                if (!int.TryParse(value, out int nombre))
+                {
+                    throw new ArgumentException();
+                }
                 value = value.Trim();
-                NumClient = value;
+                m_numClient = value;
             } 
         }
-        public Roles Role { get { return m_role; } set { } }
+        public Roles Role
+        {
+            get
+            { 
+                return m_role; }
+            set
+            {
+                m_role = value;
+            }
+        }
         public int Solde { get { return m_solde; }
-            private set
+          set
             {
                 if (value < 0)
                 { throw new InvalidOperationException(); }
@@ -48,11 +84,12 @@ namespace Models
                 {
                     throw new InvalidOperationException();
                 }
+                m_solde = value;
             }
             
         }
-        public SorteComptes SorteComptes { get { return m_sorteComptes; } private set { } }
-        public List<Transaction> Transaction { get  }
+        public SorteComptes SorteCompte { get { return m_sorteComptes; } private set { m_sorteComptes = value; } }
+         public List<Transaction> Transactions { get;   set ; }
 
 
 
@@ -66,10 +103,14 @@ namespace Models
             {
                 throw new InvalidOperationException();
             }
-            if (Transaction.Contains(pTransaction)) {
-
+            if (Transactions.Contains(pTransaction))
+            {
                 throw new InvalidOperationException();
             }
+
+            Transactions.Add(pTransaction);
+
+
         }
         public Client(string pChaineLue)
         {
@@ -79,30 +120,52 @@ namespace Models
             Nom = parties[1];
             MotDePasse = parties[2];
             Role = (Roles)int.Parse(parties[3]);
-            SorteComptes = (SorteComptes)int.Parse(parties[4]);
+            SorteCompte = (SorteComptes)int.Parse(parties[4]);
             Solde = int.Parse(parties[5]);
+            Transactions = new List<Transaction>();
         }
         public  Client(string pNumClient, string pNom, string pMotDePasse, Roles Prole,SorteComptes pSorte , int pSolde)
         {
-            
+            NumClient = pNumClient;
+            Nom = pNom;
+            MotDePasse= pMotDePasse;
+            Role = Prole;
+            SorteCompte = pSorte;
+            Solde = pSolde;
+         Transactions = new List<Transaction>();
         }
         public void Deposer(int Montant)
-        {  Solde += Montant;
-            if(Montant < 0) { throw new ArgumentOutOfRangeException(); }
+        {  
+            if(Montant <= 0) { throw new ArgumentOutOfRangeException(); }
             if (Montant > MAX_SOLDE) { throw new InvalidOperationException(); }
-          
+            Solde += Montant;
+
         }
         public bool PeutRetirer(int montant)
         {
-            Solde -= montant;
-            if(montant < Solde) {  return true; }
+           
+            if(montant < Solde) return true;
+            
             return false;
+
+        }
+        public void Retirer(int pMontant)
+        {
+            if (pMontant <= 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+            if (pMontant > Solde) {
+            throw new InvalidOperationException();
+            
+            }
+            Solde -= pMontant;
         }
         public string toCsv()
         {
             int roleInt = (int)Role;
-            int sortecompte = (int)SorteComptes;
-            Role = (Roles)int.Parse();
+            int sortecompte = (int)SorteCompte;
+          
             return $"{NumClient}, {Nom} , {MotDePasse},{roleInt},{sortecompte},{Solde}";
                     
                     
