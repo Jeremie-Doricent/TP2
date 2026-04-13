@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\modelstests\\clienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\clienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\serviceguichet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\serviceguichet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\serviceguichet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\serviceguichet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\modelstests\\clienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D35F264-BAD3-4723-8176-C1E0F5430E3A}|ModelsTests\\ModelsTests.csproj|solutionrelative:modelstests\\clienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{564B8678-16C8-4731-8410-844D48992E6D}|Models\\Models.csproj|c:\\users\\6325048\\desktop\\tp2\\tp2_appguichet_materiel-7dbe04c63adc4e6fd8a8c1191f225174\\tp2_appguichet_materiel\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -125,13 +125,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
               "ToolTip": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Client.cs",
               "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwD0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwD0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T18:50:14.387Z",
               "EditorCaption": ""
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClientTests.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ClientTests.cs",
               "RelativeDocumentMoniker": "ModelsTests\\ClientTests.cs",
@@ -159,8 +159,7 @@
               "RelativeToolTip": "ModelsTests\\ClientTests.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAUwKYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T15:01:28.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T15:01:28.111Z"
             },
             {
               "$type": "Document",
@@ -199,26 +198,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
               "ToolTip": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Transaction.cs",
               "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T18:54:57.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ServiceGuichet.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\ServiceGuichet.cs",
               "RelativeDocumentMoniker": "Models\\ServiceGuichet.cs",
-              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\ServiceGuichet.cs",
-              "RelativeToolTip": "Models\\ServiceGuichet.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDMAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\ServiceGuichet.cs*",
+              "RelativeToolTip": "Models\\ServiceGuichet.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T17:11:06.73Z",
               "EditorCaption": ""
@@ -257,8 +256,7 @@
               "RelativeToolTip": "ModelsTests\\ServiceGuichetTests.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAALMCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T02:49:50.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T02:49:50.584Z"
             },
             {
               "$type": "Document",
