@@ -1,5 +1,5 @@
 ﻿//Décommenter les lignes suivantes pour activer les tests
-//#define TestClasseServiceGuichet
+#define TestClasseServiceGuichet
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models;
