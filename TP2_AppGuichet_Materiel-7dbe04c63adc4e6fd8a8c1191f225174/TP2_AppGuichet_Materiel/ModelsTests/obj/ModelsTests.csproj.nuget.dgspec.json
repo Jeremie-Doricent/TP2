@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj": {}
+    "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj": {
+    "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj",
+        "projectUniqueName": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj",
         "projectName": "ModelsTests",
-        "projectPath": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj",
+        "projectPath": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\ModelsTests.csproj",
         "packagesPath": "C:\\Users\\6325048\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\ModelsTests\\obj\\",
+        "outputPath": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\ModelsTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\Models\\Models.csproj"
+              "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Models.csproj"
               }
             }
           }
@@ -127,27 +127,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
-      },
-      "runtimes": {
-        "win-arm64": {
-          "#import": []
-        },
-        "win-x64": {
-          "#import": []
-        },
-        "win-x86": {
-          "#import": []
-        }
       }
     },
-    "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\Models\\Models.csproj": {
+    "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\6325048\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6325048\\Downloads\\TP2_AppGuichet_Materiel\\Models\\obj\\",
+        "outputPath": "C:\\Users\\6325048\\Desktop\\TP2\\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\\TP2_AppGuichet_Materiel\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

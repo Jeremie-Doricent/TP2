@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppGuichet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+832745d08014fce9e765daf34620e5e6a32f57ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppGuichet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppGuichet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
