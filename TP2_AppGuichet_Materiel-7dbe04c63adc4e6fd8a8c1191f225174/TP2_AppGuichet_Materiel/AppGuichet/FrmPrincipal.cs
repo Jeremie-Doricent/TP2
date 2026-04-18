@@ -1,21 +1,22 @@
-using System;
+Ôªøusing System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.IO;
+using Models;
 
 
 namespace AppGuichet
 {
     /// =====================================================================================================================
     /// <summary>
-    /// ReprÈsente líutilisation díun guichet automatique. Un client peut se connecter avec son numÈro et son mot de passe.
-    /// Il peut retirer de líargent si son solde le permet. Líadministrateur du guichet peut demander la liste des clients
-    /// o˘ la liste des transactions effectuÈes sur le guichet.
+    /// Repr√©sente l‚Äôutilisation d‚Äôun guichet automatique. Un client peut se connecter avec son num√©ro et son mot de passe.
+    /// Il peut retirer de l‚Äôargent si son solde le permet. L‚Äôadministrateur du guichet peut demander la liste des clients
+    /// o√π la liste des transactions effectu√©es sur le guichet.
     /// </summary>
     /// ======================================================================================================================
     public partial class FrmPrincipal : Form
     {
-        public const string APP_INFO = "(DÈmo)";
+        public const string APP_INFO = "(D√©mo)";
 
         #region Constantes
         //--- CHAMPS: constantes ----------------------------------------------------------
@@ -23,7 +24,7 @@ namespace AppGuichet
                public const string CHEMIN_FICHIER_TRANSACTIONS = "../../../Fichiers/Transactions.csv";
         #endregion
 
-        #region Champs et PropriÈtÈs
+        #region Champs et Propri√©t√©s
        
 
 
@@ -35,24 +36,29 @@ namespace AppGuichet
         {
             InitializeComponent();
             this.Text += APP_INFO;
-           
 
+            serviceGuichet = new ServiceGuichet(CHEMIN_FICHIER_CLIENTS,CHEMIN_FICHIER_TRANSACTIONS);
+            
         }
         #endregion
 
+       public ServiceGuichet serviceGuichet;
 
-
-
+       public Client client1;
 
         #region Menu Administrateur
         //---------------------------------------------------------------------------------
         private void mnuAdminListeClients_Click(object sender, EventArgs e)
         {
-          
+          FrmListeClients clients = new FrmListeClients();
+            clients.ShowDialog();
         }
         //---------------------------------------------------------------------------------
         private void mnuAdminListeTransactions_Click(object sender, EventArgs e)
         {
+           
+            FrmListeTransactions transactions = new FrmListeTransactions();
+            transactions.ShowDialog();
            
         }
 
@@ -61,59 +67,129 @@ namespace AppGuichet
 
         private void FrmPrincipal_FormClosing(object sender, EventArgs e)
         {
-           
+            serviceGuichet.Sauvegarde();  
             
         }
         private void mnuFichierQuitter_Click(object sender, EventArgs e)
         {
-           
+           this.Close();
            
            
         }
 
        
 
-        #region Bouton Connexion/DÈconnexion 
+        #region Bouton Connexion/D√©connexion 
         //---------------------------------------------------------------------------------
         public void btnConnexion_Click(object sender, EventArgs e)
         {
-            
+            if (client1 != null)
+            {
+                serviceGuichet.Deconnexion();
+                client1 = null;
+                btnConnexion.Text = "Se connecter";
+           
+                txtNom.Clear();
+                txtSolde.Clear();
+                txtSorteCompte.Clear();
+                grpInfosClient.Enabled = false;
+                mnuAdministrateur.Enabled = false;
+                btnRetirer.Enabled = false;
+                btnDeposer.Enabled = false;
+                txtNumClient.Clear();
+                
+            }
+            else
+            {
+                string numClient = txtNumClient.Text;
+                string motpasse = txtMotDePasse.Text;
+                
+                bool choix = serviceGuichet.Connexion(numClient, motpasse);
 
-            
+                if (!choix )  // ‚Üê connexion r√©ussie
+                {
+                    client1 = serviceGuichet.ClientCourant;
+                    btnConnexion.Text = "Deconnexion";
+                   grpInfosClient.Enabled = true;
+                    
+                }
+                else  // ‚Üê connexion √©chou√©e
+                {
+                    MessageBox.Show("Num√©ro ou mot de passe invalide !");
+                }
+                StreamReader streamReader = new StreamReader(CHEMIN_FICHIER_TRANSACTIONS);
+
+                while (streamReader.EndOfStream)
+                {
+
+                    string line = streamReader.ReadLine();
+                    string[] w = line.Split(",");
+
+                    int chwoix = int.Parse(w[0]);
+                    SorteTransactions sorteTransactions = (SorteTransactions)chwoix;
+                    string numclient = w[1];
+                    DateTime date = DateTime.Parse(w[2]);
+                    int montant = int.Parse(w[3]);
+
+
+                }
+            }
         }
         #endregion
 
-        #region Bouton Retirer et …vÈnement Combo Montant ‡ retirer
+        #region Bouton Retirer et √âv√©nement Combo Montant √† retirer
         //---------------------------------------------------------------------------------
         //Retire le montant choisi
         public void btnDeposer_Click(object sender, EventArgs e)
         {
-            
+            int montant = int.Parse(cboMontant.Text);
+            try
+            {
+                client1.Deposer(montant);
+                serviceGuichet.CreerTransaction(SorteTransactions.D√©p√¥t, client1.NumClient, DateTime.Now, montant);
+            }
+            catch (Exception) {
+
+                MessageBox.Show("eurreur d√™pot", "toujours pas", MessageBoxButtons.OK, MessageBoxIcon.Error);                    
+                    }
 
            
         }
         //---------------------------------------------------------------------------------
-        //Choix du montant ‡ retirer
+        //Choix du montant √† retirer
         private void cboMontant_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
 
+            cboMontant.Show();
         }
 
         #endregion
 
         private void btnRetirer_Click(object sender, EventArgs e)
         {
-            
+            int montant = int.Parse(cboMontant.Text);
+            try
+            {
+                client1.Retirer(montant);
+                serviceGuichet.CreerTransaction(SorteTransactions.Retrait, client1.NumClient, DateTime.Now, montant);
+            }
+            catch (Exception)
+            {
 
-           
+                MessageBox.Show("eurreur d√™pot", "toujours pas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
         }
 
         
 
         private void mnuAdministrateur_Click(object sender, EventArgs e)
         {
-
+            
+                mnuAdminListeClients.Enabled = true;
+                mnuAdminListeTransactions.Enabled = true;
+            
+            
         }
     }
 }
