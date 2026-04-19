@@ -1,5 +1,7 @@
 is_global = true
 build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.TargetPlatformMinVersion = 10.0.19041.0
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -8,7 +10,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ModelsTests
-build_property.ProjectDir = C:\Users\6325048\Desktop\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\ModelsTests\
+build_property.ProjectDir = C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\ModelsTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
