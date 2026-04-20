@@ -1051,3 +1051,16 @@ C:\Users\6325048\Downloads\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-w
 C:\Users\6325048\Downloads\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\qualifiers.txt
 C:\Users\6325048\Downloads\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\qualifiers.txt.intermediate
 C:\Users\6325048\Downloads\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.csproj.AssemblyReference.cache
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.FrmListeClients.resources
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.FrmListeTransactions.resources
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.FrmPrincipal.resources
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.csproj.GenerateResource.cache
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.AssemblyInfoInputs.cache
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.AssemblyInfo.cs
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.csproj.CoreCompileInputs.cache
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.sourcelink.json
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.dll
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\refint\AppGuichet.dll
+C:\Users\Jeremie\Downloads\TP2\TP2_AppGuichet_Materiel-7dbe04c63adc4e6fd8a8c1191f225174\TP2_AppGuichet_Materiel\AppGuichet\obj\Debug\net8.0-windows10.0.19041.0\AppGuichet.pdb
